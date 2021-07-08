@@ -111,7 +111,7 @@ while running:
         laserY = 480
         laser_state = "ready"
 
-    if laser_state is "fire":
+    if laser_state == "fire":
         fire_laser(laserX, laserY)
         laserY -= laserY_Change
 
